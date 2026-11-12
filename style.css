@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1 {
+    color: #2a6f97;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bouton {
+    display: inline-block;
+    background-color: #2a6f97;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.bouton:hover {
+    background-color: #1b4f72;
+}
+.carte {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
